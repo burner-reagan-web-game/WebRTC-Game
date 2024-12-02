@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.156.1/build/three.module.js';
+import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";
 import { createConnection, broadcastMessage } from './webrtc.js';
 import { pushToGitHub, pullFromGitHub } from './github.js';
 
