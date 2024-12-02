@@ -1,4 +1,4 @@
-import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";
+import * as THREE from 'THREE';
 import { createConnection, broadcastMessage } from './webrtc.js';
 import { pushToGitHub, pullFromGitHub } from './github.js';
 
